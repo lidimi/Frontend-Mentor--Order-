@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    width: 25%;
+    min-width: 370px;
+    margin: 10vh auto;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 24px 38px -9px rgba(164, 170, 218, 1);
+    -moz-box-shadow: 0px 24px 38px -9px rgba(164, 170, 218, 1);
+    box-shadow: 0px 24px 38px -9px rgba(164, 170, 218, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.information {
+    margin: 0;
+    background-color: hsl(225, 100%, 98%);
+    padding: 3rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h1, h2 {
+    color: hsl(223, 47%, 23%);
+}
+
+.first-paragraph {
+    margin: 1rem 0;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.7em;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.annual-plan {
+    background-color: hsl(225, 100%, 94%, 0.3);
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info img{
+    margin-right: 1em;
+    display: inline-block;
+}
+
+.pay{
+    display: inline-block;
+    text-align: left;
+}
+
+button {
+    display: block;
+    
+}
+
+.payment {
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    margin: 2em 0 1em 0;
+    border: none;
+    color: hsl(225, 100%, 98%);
+    padding: 1em;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 24px 38px -9px rgba(164, 170, 218, 1);
+    -moz-box-shadow: 0px 24px 38px -9px rgba(164, 170, 218, 1);
+    box-shadow: 0px 24px 38px -9px rgba(164, 170, 218, 1);
+}
+
+.cancel {
+    margin: 3em auto 0;
+    border: none;
+    background-color: hsl(225, 100%, 98%);
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(225, 21%, 49%);
+    cursor: pointer;
+}
+
+.dollars {
+    margin: 0;
+    color: hsl(224, 23%, 55%);
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+a {
+    font-weight: bold;
+    color: hsl(245, 75%, 52%);
+}
